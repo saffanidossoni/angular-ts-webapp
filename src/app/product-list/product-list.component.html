@@ -11,7 +11,7 @@
   <p *ngIf="product.description">
     Description: {{ product.description }}
   </p>
-  <img src="../../../assets/images/nerdschalk.com-9e2d0144-cf9b-41e0-bb6d-5959dde80129.jpeg"/>
+  <img [src]="product.imagepath"/>
   <br/>
   <button (click)="share()">
     Share

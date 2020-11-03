@@ -2,17 +2,20 @@ export const products = [
   {
     name: 'Phone XL',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'A large phone with one of the best screens',
+     imagepath: 'https://github.com/saffanidossoni/angular-ts-webapp/blob/master/src/assets/images/logo-nav@2x.png?raw=true'
   },
   {
     name: 'Phone Mini',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'A great phone with one of the best cameras',
+    imagepath: 'https://github.com/saffanidossoni/angular-ts-webapp/blob/master/src/assets/images/logo-nav@2x.png?raw=true'
   },
   {
     name: 'Phone Standard',
     price: 299,
-    description: ''
+    description: '',
+     imagepath: 'https://github.com/saffanidossoni/angular-ts-webapp/blob/master/src/assets/images/logo-nav@2x.png?raw=true'
   }
 ];
 

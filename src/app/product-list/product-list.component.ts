@@ -11,7 +11,7 @@ export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.open('ssh://[user:password@]host[:port]/~/URI[?queryParameters]');
   }
 }
 
